@@ -1,8 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## The following functions compute the inverse of a matrix and then store it in cache 
+## if it is needed so that it is not calculated eyery time it is needed
 
 ## Write a short comment describing this function
-
+## The following function create a special matrix object which can be used by the 
+## cacheSolve function to calculate and store the inverse of a matrix
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
